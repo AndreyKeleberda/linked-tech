@@ -1,0 +1,28 @@
+.modal {
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  height: 100vw;
+  top: 0;
+  left: 0;
+
+  background: rgba(105, 114, 240, 0.482);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  height: 50%;
+
+  background-color: white;
+
+  padding: 15px;
+}
+
+.is-hidden {
+  display: none;
+}

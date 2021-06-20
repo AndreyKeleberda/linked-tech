@@ -1,0 +1,18 @@
+export default {
+  header: document.getElementById("header"),
+  sectionHero: document.getElementById("hero"),
+  sectionClients: document.getElementById("clients"),
+  sectionHot: document.getElementById("hot"),
+  sectionSale: document.getElementById("sale"),
+  sectionAbout: document.getElementById("about"),
+  sectionPopular: document.getElementById("popular"),
+  sectionNew: document.getElementById("new"),
+  sectionContact: document.getElementById("contact"),
+  contactForm: document.getElementById("contact-form"),
+  footer: document.getElementById("footer"),
+  modalButton: document.querySelectorAll("[data-modal-open]"),
+  modal: document.getElementById("modal"),
+  modalContent: document.getElementById("modal-content"),
+  closeModalBtn: document.querySelector("[data-modal-close]"),
+  form: document.getElementById("modal-form"),
+};
