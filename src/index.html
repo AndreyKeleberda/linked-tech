@@ -7,8 +7,10 @@
   </head>
   <body>
     <header class="header" id="header">
-      <a href=""><img src="./images/logo.jpg" alt="logo" /></a>
-      <ul>
+      <a href="" class="logo-link"
+        ><img src="./images/logo.jpg" alt="logo" class="logo-image"
+      /></a>
+      <ul class="nav">
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Product</a></li>
@@ -16,37 +18,41 @@
         <li><a href="">shop</a></li>
         <li><a href="">Contact us</a></li>
       </ul>
-      <ul>
+      <ul class="header-links">
         <li>
-          <button><img src="./images/find.svg" alt="" /></button>
+          <a href=""><img src="./images/find.svg" alt="" /></a>
         </li>
         <li>
-          <button><img src="./images/basket.svg" alt="" /></button>
+          <a href=""><img src="./images/basket.svg" alt="" /></a>
         </li>
         <li>
-          <button><img src="./images/profile.svg" alt="" /></button>
+          <a href=""><img src="./images/profile.svg" alt="" /></a>
         </li>
         <li><button id="modal-button" data-modal-open>модалка</button></li>
       </ul>
     </header>
     <section class="hero" id="hero">
-      <div>
-        <p>Favorite brands</p>
-        <h1>An exciting place for the whole family to shop.</h1>
-        <p>
-          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
-          below for those interested.
+      <div class="hero-unit">
+        <p class="dscrptn1">Favorite brands</p>
+        <h1>
+          <span> An exciting place </span> <br />
+          for the whole family <br />
+          to shop.
+        </h1>
+        <p class="dscrptn2">
+          The standard chunk of Lorem Ipsum used since the 1500s is <br />
+          reproduced below for those interested.
         </p>
-        <button>Shop Now</button>
-        <div>
+        <div class="shop-now">
+          <button>Shop Now</button>
           <p>$ 249.99</p>
           <p>$ 249.99</p>
         </div>
       </div>
-      <img src="./images/hero-product.jpg" alt="" />
+      <img src="./images/hero-product.jpg" alt="" class="hero-image" />
     </section>
     <section class="clients" id="clients">
-      <div>
+      <div class="clients-logo">
         <ul>
           <li>
             <a href=""><img src="./images/cl_logo1.svg" alt="" /></a>
@@ -148,7 +154,7 @@
         <h2>Popular Products</h2>
       </div>
       <div>
-        <ul>
+        <ul id="popular-cards">
           <li>Recent arrival</li>
           <li>best sellers</li>
           <li>special offers</li>
@@ -185,7 +191,11 @@
         </div>
       </div>
     </section>
-    <section class="new" id="new"></section>
+    <section class="new" id="new">
+      <h2>Coctails</h2>
+      <input type="text" id="search-coctail" />
+      <ul id="coctails-list"></ul>
+    </section>
     <section class="contact" id="contact">
       <div>
         <p>User Contact</p>
@@ -205,10 +215,10 @@
       <div class="modal-content" id="modal-content">
         <button type="button" data-modal-close>close modal</button>
         <form id="modal-form">
-          <input type="text" name="name" placeholder="name" required />
+          <!-- <input type="text" name="name" placeholder="name" required />
           <input type="tel" name="tel" placeholder="tel" required />
           <textarea name="message" id="" cols="30" rows="10"></textarea>
-          <button type="submit">send</button>
+          <button type="submit">send</button> -->
         </form>
       </div>
     </div>

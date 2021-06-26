@@ -1,8 +1,175 @@
-body {
-  /* background: black; */
-  /* color: wheat; */
+ section {
+width: 1600px;
+padding-left: 230px;
+padding-right: 230px;
 }
 
+
+
+/* ======== HEADER ======== */
+
 header {
+  display: flex;
+  width: 1140px;
+  padding-left: 230px;
+  padding-right: 230px;
+  
+}
+
+.logo-link {
+  width: 106px;
+  height: 25,6px;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding-top: 33px;
+  padding-bottom: 34px;
+  margin-left: 177px;
+  margin-right: 157px;
+  width: 573px;
+  white-space: nowrap;
+  
+}
+.nav > li {
+  margin-right: 40px;
+  font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 23px;
+text-transform: uppercase;
+color: #030D15;
+}
+
+
+.header-links {
+  display: flex;
+  padding: 37px 0px;
+}
+.header-links :not(:last-child) {
+  margin-right: 30px;
+}
+
+
+/* ========HERO========= */
+
+.hero {
+  position: relative;
+  padding-top: 129px;
+  padding-bottom: 73px;
+}
+
+.dscrptn1 {
+  font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.145em;
+text-transform: uppercase;
+color: #C72535;
+opacity: 0.6;
+}
+
+h1{
+  font-family: Hind Siliguri;
+font-style: normal;
+font-weight: normal;
+font-size: 61px;
+line-height: 73px;
+color: #030D15;
+
+margin-top: 3px;
+}
+
+h1 span {
+  font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 600;
+font-size: 61px;
+line-height: 73px;
+
+color: #247CC0;
+}
+
+.dscrptn2 {
+margin-top: 29px;
+  font-family: Hind Siliguri;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 27px;
+color: #030D15;
+opacity: 0.6;
+}
+
+.shop-now {
+  /* position: relative; */
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.shop-now button {
+  width: 151px;
+  height: 58px;
+  background: #247CC0;
+  border-style: none;
+
+  margin-right: 31px;
+
+  font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.shop-now p {
+margin-right: 18px;
+
+  font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+display: block;
+
+}
+
+.shop-now p:last-child {
+  font-family: Hind Siliguri;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 27px;
+text-align: center;
+text-decoration-line: line-through;
+color: #030D15;
+
+opacity: 0.5;
+}
+
+.hero-image {
+  position: absolute;
+  width: 643px;
+  height: 611px;
+  top: 54px;
+  right: 144px;
+}
+
+/* ====== section Clients ========== */
+
+
+
+.clients-logo ul {
   display: flex;
 }

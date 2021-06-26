@@ -11,16 +11,19 @@ modalButton.forEach((btn) => {
 window.addEventListener("keydown", (evt) => {
   if (evt.code === "Escape") {
     modal.classList.add("is-hidden");
+    modalContent.innerHTML = "";
   }
 });
 
 modal.addEventListener("click", (e) => {
   if (e.target.id === "modal") {
     modal.classList.add("is-hidden");
+    modalContent.innerHTML = "";
   }
   console.log(e);
 });
 
 closeModalBtn.addEventListener("click", (e) => {
   modal.classList.add("is-hidden");
+  modalContent.innerHTML = "";
 });

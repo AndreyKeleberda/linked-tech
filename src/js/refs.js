@@ -15,4 +15,7 @@ export default {
   modalContent: document.getElementById("modal-content"),
   closeModalBtn: document.querySelector("[data-modal-close]"),
   form: document.getElementById("modal-form"),
+  products: document.getElementById("popular-cards"),
+  coctailsList: document.getElementById("coctails-list"),
+  searchCoctail: document.getElementById("search-coctail"),
 };
